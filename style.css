@@ -8,11 +8,15 @@
     height: 55px;
 }
 
+.cs_min-w{
+    min-width: 0;
+}
+
 input.cs_formcontrol{
     background-color: #e5e5e5;
     border: none;
     display: block;
-    width: 100%;
+    width: 95%;
     padding: .375rem .75rem;
     font-size: 1rem;
     font-weight: 400;
@@ -23,4 +27,6 @@ input.cs_formcontrol{
     -moz-appearance: none;
     appearance: none;
     border-radius: .375rem;
+    margin: 0 auto;
+    height: 65%;
 }

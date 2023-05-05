@@ -23,20 +23,24 @@
 <body>
     <header>
         <nav class="cs_navbar-height p-0 bg-light">
-            <div class="container-fluid p-0">
-                  <div class="row m-0">
-                    <div class="col p-0 d-flex text-center">
-                        <a class="navbar-brand m-0 p-0 text-center" href="#">
-                            <img class="cs_navbar-height" src="img/mobile-logo.png" alt="Immagine logo">
+            <div class="container-fluid p-0 h-100">
+                  <div class="row m-0 h-100">
+                    <div class="col-1 h-100 p-0 d-flex text-center me-sm-5">
+                        <a class="navbar-brand m-0 p-0 h-100 d-flex align-items-center" href="#">
+                            <img class="cs_navbar-height d-lg-none" src="img/mobile-logo.png" alt="Immagine logo">
+                            <img class=" d-none d-lg-block" src="img/logo.svg" alt="Immagine logo">
                         </a>
                     </div>
-                    <div class="col-10 p-0 position-relative d-flex align-items-center">
-                        <form class="d-flex w-100 h-100" role="search">
-                            <input class="cs_formcontrol position-absolute start-0 end-0 top-50 translate-middle-y" type="search" placeholder="Search" aria-label="Search">
+                    <div class="col-10 col-lg-9 p-0 d-flex align-items-center ">
+                        <form class="d-flex w-100 h-100 align-items-center" role="search">
+                            <input class="cs_formcontrol" type="search" placeholder="Search" aria-label="Search">
                         </form>
                     </div>
-                    <div class="col p-0 align-items-center d-flex justify-content-center">
+                    <div class="col p-0 align-items-center d-flex justify-content-evenly flex-row-reverse">
                         <i class="fa-solid fa-bell" style="color: #fada27;"></i>
+                        <i class="fa-solid fa-list-ul d-none d-lg-block"></i>
+                        <i class="fa-solid fa-circle-question d-none d-lg-block"></i>
+                        <i class="fa-solid fa-ellipsis-vertical d-none d-lg-block"></i>
                     </div>
                 </div>
             </div>
