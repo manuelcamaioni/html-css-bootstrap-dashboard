@@ -77,12 +77,25 @@ input.cs_formcontrol{
     
 }
 
+.cs_xxs-fs{
+    font-size: .8rem;
+}
+
 .plus_label{
     background-color: #165bba;
     border-radius: 50%;
-    height: 26px;
-    width: 26px;
+    height: 25px;
+    width: 25px;
     text-align: center;
+}
+
+@media screen and (min-width: 768px){
+    .cs_align-start{
+        align-self: flex-start;
+    }
+    .cs_justify-center{
+        justify-content: center;
+    }
 }
 
 @media screen and (min-width: 992px){
