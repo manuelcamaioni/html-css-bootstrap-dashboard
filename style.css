@@ -4,12 +4,23 @@
     box-sizing: border-box;
 }
 
-
-
 .cs_navbar-height{
     height: 55px;
 }
 
-.cs_searchbar{
+input.cs_formcontrol{
     background-color: #e5e5e5;
+    border: none;
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-clip: padding-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .375rem;
 }
