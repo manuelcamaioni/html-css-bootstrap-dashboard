@@ -47,10 +47,46 @@ input.cs_formcontrol{
     width: 20px;
 }
 
+.top-section{
+    background-color: #1b72e8;
+    color: white;
+    width: calc(100% - 60px);
+    align-self:flex-start;
+}
+
+.top-section a{
+    color: white;
+    text-decoration: none;
+}
+
+.add-student:hover, .student a:hover{
+    color: white;
+}
+
+.add-student i{
+    font-size: 1.5rem;
+    border: 1px solid white;
+    padding: .3rem .4rem;
+    border-radius: .6rem;
+}
+
+.cs_label{
+    background-color: #165bba;
+    border-radius: 1rem;
+    padding: .2rem .5rem;
+    
+}
+
+.plus_label{
+    background-color: #165bba;
+    border-radius: 50%;
+    height: 26px;
+    width: 26px;
+    text-align: center;
+}
 
 @media screen and (min-width: 992px){
     .cs_sidebar{
-
         width: 133px;
     }
     .top-icons{
@@ -59,6 +95,4 @@ input.cs_formcontrol{
         align-items: flex-start;
         padding: 0 .9rem;
     }
-
-    
 }
