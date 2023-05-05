@@ -35,8 +35,30 @@ input.cs_formcontrol{
     height: calc(100vh - 55px);
     width: 60px;
     background-color: #051e34;
+    color: white;
 }
 
-.cs_sidebar i{
-    color: white;
+.top-icons ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.top-icons i, .bottom-icons i{
+    width: 20px;
+}
+
+
+@media screen and (min-width: 992px){
+    .cs_sidebar{
+
+        width: 133px;
+    }
+    .top-icons{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0 .9rem;
+    }
+
+    
 }
