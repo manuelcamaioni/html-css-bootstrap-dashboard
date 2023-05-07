@@ -23,9 +23,9 @@
 <body>
     <header>
         <nav class="cs_navbar-height p-0 bg-light">
-            <div class="container-fluid p-0 h-100">
-                  <div class="row m-0 h-100">
-                    <div class="col h-100 p-0 d-flex">
+            <div class="container-fluid cs_navbar-height p-0">
+                  <div class="row m-0 cs_navbar-height">
+                    <div class="col p-0 d-flex">
                         <a class="navbar-brand m-0 p-0 h-100 d-flex align-items-center" href="#">
                             <img class="cs_navbar-height d-lg-none" src="img/mobile-logo.png" alt="Immagine logo">
                             <img class=" d-none d-lg-block" src="img/logo.svg" alt="Immagine logo">
@@ -47,7 +47,7 @@
         </nav>
     </header>
     <main class="d-flex">
-        <nav class="cs_sidebar">
+        <nav class="cs_sidebar position-fixed">
             <div class="container h-100">
                 <div class="row text-center h-100">
                     <div class="col h-100 py-3 d-flex flex-column justify-content-between">
@@ -84,9 +84,11 @@
             <section class="top-section">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12 col-md  d-flex cs_justify-center align-items-center cs_align-start py-3 px-2 order-md-2">
+                        <div class="col-12 col-md  d-flex cs_justify-center align-items-center cs_align-start pt-1 pb-3 px-2 order-md-2">
                             <span class="student me-3 text-capitalize fs-5"><a href="#">Nuovo studente</a></span>
-                            <a class="add-student" href="#"><i class="fa-solid fa-plus"></i></a>
+                            <button class="cs_button-primary rounded fs-3 d-flex justify-content-center align-items-center">
+                                <span>+</span>
+                            </button>
                         </div>
             
                         <div class="col-12 col-md py-3 px-2 order-md-0">
@@ -111,8 +113,8 @@
                 </div>
             </section>
             <section class="main-section">
-                <div class="container-fluid pt-2">
-                    <div class="card">
+                <div class="container-fluid pt-2 mb-4">
+                    <div class="card mb-4">
                         <h2 class="ps-2 py-2 fs-3">Prossime classi</h2>
                         <table class="table">
                             <thead>
@@ -136,10 +138,10 @@
                                         <span class="text-bg-success rounded px-1">Done</span>
                                     </td>
                                     <td class="text-center">
-                                        <button class="btn btn-outline-secondary" type="submit">
+                                        <button class="btn btn-sm btn-outline-secondary" type="submit">
                                             <i class="fa-solid fa-pencil fa-sm"></i>
                                         </button>
-                                        <button class="btn btn-outline-secondary" type="submit">
+                                        <button class="btn btn-sm btn-outline-secondary" type="submit">
                                             <i class="fa-solid fa-trash fa-sm"></i>
                                         </button>
                                     </td>
@@ -156,10 +158,10 @@
                                         <span class="text-bg-success rounded px-1">Done</span>
                                     </td>
                                     <td class="text-center">
-                                        <button class="btn btn-outline-secondary" type="submit">
+                                        <button class="btn btn-sm btn-outline-secondary" type="submit">
                                             <i class="fa-solid fa-pencil fa-sm"></i>
                                         </button>
-                                        <button class="btn btn-outline-secondary" type="submit">
+                                        <button class="btn btn-sm btn-outline-secondary" type="submit">
                                             <i class="fa-solid fa-trash fa-sm"></i>
                                         </button>
                                     </td>
@@ -175,10 +177,10 @@
                                         <span  class="text-bg-warning rounded px-1 text-white">process</span>
                                     </td>
                                     <td class="text-center">
-                                        <button class="btn btn-outline-secondary" type="submit">
+                                        <button class="btn btn-sm btn-outline-secondary" type="submit">
                                             <i class="fa-solid fa-pencil fa-sm"></i>
                                         </button>
-                                        <button class="btn btn-outline-secondary" type="submit">
+                                        <button class="btn btn-sm btn-outline-secondary" type="submit">
                                             <i class="fa-solid fa-trash fa-sm"></i>
                                         </button>
                                     </td>
@@ -194,10 +196,10 @@
                                         <span class="text-bg-success rounded px-1">Done</span>
                                     </td>
                                     <td class="text-center">
-                                        <button class="btn btn-outline-secondary" type="submit">
+                                        <button class="btn btn-sm btn-outline-secondary" type="submit">
                                             <i class="fa-solid fa-pencil fa-sm"></i>
                                         </button>
-                                        <button class="btn btn-outline-secondary" type="submit">
+                                        <button class="btn btn-sm btn-outline-secondary" type="submit">
                                             <i class="fa-solid fa-trash fa-sm"></i>
                                         </button>
                                     </td>
@@ -213,10 +215,10 @@
                                         <span class="text-bg-danger rounded px-1">failed</span>
                                     </td>
                                     <td class="text-center">
-                                        <button class="btn btn-outline-secondary" type="submit">
+                                        <button class="btn btn-sm btn-outline-secondary" type="submit">
                                             <i class="fa-solid fa-pencil fa-sm"></i>
                                         </button>
-                                        <button class="btn btn-outline-secondary" type="submit">
+                                        <button class="btn btn-sm btn-outline-secondary" type="submit">
                                             <i class="fa-solid fa-trash fa-sm"></i>
                                         </button>
                                     </td>
@@ -232,10 +234,10 @@
                                         <span class="text-bg-success rounded px-1">Done</span>
                                     </td>
                                     <td class="text-center">
-                                        <button class="btn btn-outline-secondary" type="submit">
+                                        <button class="btn btn-sm btn-outline-secondary" type="submit">
                                             <i class="fa-solid fa-pencil fa-sm"></i>
                                         </button>
-                                        <button class="btn btn-outline-secondary" type="submit">
+                                        <button class="btn btn-sm btn-outline-secondary" type="submit">
                                             <i class="fa-solid fa-trash fa-sm"></i>
                                         </button>
                                     </td>
@@ -251,10 +253,10 @@
                                         <span class="text-bg-danger rounded px-1">failed</span>
                                     </td>
                                     <td class="text-center">
-                                        <button class="btn btn-outline-secondary" type="submit">
+                                        <button class="btn btn-sm btn-outline-secondary" type="submit">
                                             <i class="fa-solid fa-pencil fa-sm"></i>
                                         </button>
-                                        <button class="btn btn-outline-secondary" type="submit">
+                                        <button class="btn btn-sm btn-outline-secondary" type="submit">
                                             <i class="fa-solid fa-trash fa-sm"></i>
                                         </button>
                                     </td>
@@ -270,10 +272,10 @@
                                         <span class="text-bg-success rounded px-1">Done</span>
                                     </td>
                                     <td class="text-center">
-                                        <button class="btn btn-outline-secondary" type="submit">
+                                        <button class="btn btn-sm btn-outline-secondary" type="submit">
                                             <i class="fa-solid fa-pencil fa-sm"></i>
                                         </button>
-                                        <button class="btn btn-outline-secondary" type="submit">
+                                        <button class="btn btn-sm btn-outline-secondary" type="submit">
                                             <i class="fa-solid fa-trash fa-sm"></i>
                                         </button>
                                     </td>
@@ -281,7 +283,70 @@
                             </tbody>
                         </table>
                     </div>
-                  
+                  <div class="card">
+                    <h2 class="ps-2 py-2 fs-3 mb-0">F.A.Q.</h2>
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button ps-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              Come aggiungere un nuovo studente?
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body ps-5">
+                              <p>
+                                Clicca sul "+" in alto nella sezione blu.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed ps-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              Come posso accedere alle informazioni del mio account?
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body ps-5">
+                              <p>
+                                Clicca sull'icona della campanella.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed ps-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              Posso usare questa dashboard da mobile?
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body ps-5">
+                              <p>Sì.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="container-fluid pt-2">
+                    <div class="card mb-4">
+                        <h2 class="ps-2 py-2 fs-3 mb-0">Todo</h2>
+                        <div class="vstack p-3">
+                            <div class="bg-light border p-2">
+                                <input type="checkbox">
+                                Kickoff nuove classi
+                            </div>
+                            <div class="bg-light border p-2">
+                                <input type="checkbox">
+                                Lezione su bootstrap 5 in classe #75
+                            </div>
+                            <div class="bg-light border p-2">
+                                <input type="checkbox">
+                                Controllare username github studenti
+                            </div>
+                          </div>
+                    </div>
                 </div>
             </section>
         </div>
