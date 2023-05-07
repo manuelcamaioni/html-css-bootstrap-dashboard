@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 
-html{
-    scrollbar-width: none;
-}
-
-/* main{
-    padding-top: 55px;
+/* html{
+    overflow-y: hidden;
 } */
+
+main{
+    padding-top: 55px;
+} 
 
 
 
@@ -74,7 +74,6 @@ input.cs_formcontrol{
 
 .my-wrapper{
     width: 100%;
-    overflow-y: scroll;
     padding-left: 60px;
 }
 
