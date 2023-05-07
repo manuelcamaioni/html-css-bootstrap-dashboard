@@ -159,5 +159,9 @@ input.cs_formcontrol{
     .my-wrapper{
         padding-left: 133px;
     }
+
+    .main-section{
+        display: flex;
+    }
    
 }
