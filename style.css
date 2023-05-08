@@ -124,6 +124,11 @@ input.cs_formcontrol{
     text-align: center;
 }
 
+.plus_button{
+    height: 50px;
+    line-height: 50px;
+}
+
 .main-section{
     width: 100%;
     padding-top: 254.55px;
