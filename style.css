@@ -144,6 +144,8 @@ input.cs_formcontrol{
 
 table img{
     width: 20px;
+    height: 20px;
+    border-radius: 50%;
 }
 
 .text-white{
@@ -238,6 +240,7 @@ button.btn:hover{
 table tr:hover{
     background-color: rgba(0, 0, 0, .2);
 }
+
 
 table tr{
     transition: background-color .5s;
