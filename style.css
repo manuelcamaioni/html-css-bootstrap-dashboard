@@ -169,5 +169,7 @@ table img{
     .main-section{
         display: flex;
     }
-   
+    .my_offcanvas{
+        width: 30%;
+    }
 }
