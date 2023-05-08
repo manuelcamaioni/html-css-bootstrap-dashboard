@@ -169,11 +169,14 @@ table img{
     .main-section{
         display: flex;
     }
+    #offcanvasRight{
+        width: 50%;
+    }
 }
 
 @media screen and (max-width: 992px){
-    div.offcanvas{
-        left: 0;
-        width: 0;
+
+    #offcanvasRight{
+        width: 100%;
     }
 } 
