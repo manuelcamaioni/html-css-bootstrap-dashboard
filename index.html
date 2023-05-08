@@ -37,7 +37,17 @@
                         </form>
                     </div>
                     <div class="col p-0 align-items-center d-flex justify-content-evenly flex-row-reverse">
-                        <i class="fa-solid fa-bell m-auto m-lg-0" style="color: #fada27;"></i>
+                        <div class="dropdown">
+                            <button class="btn border-0 p-1" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <i class="fa-solid fa-bell m-auto m-lg-0" style="color: #fada27;"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Profilo</a></li>
+                              <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                              <li><a class="dropdown-item" href="#">Logout</a></li>
+                            </ul>
+                        </div>
+                        
                         <i class="fa-solid fa-ellipsis-vertical d-none d-lg-block"></i>
                         <i class="fa-solid fa-circle-question d-none d-lg-block"></i>
                         <i class="fa-solid fa-list-ul d-none d-lg-block"></i>
@@ -81,7 +91,7 @@
         </nav>
 
         <div class="my-wrapper">
-            <section class="top-section">
+            <section class="top-section fixed-right">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-md  d-flex cs_justify-center align-items-center cs_align-start pt-1 pb-3 px-2 order-md-2">
