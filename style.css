@@ -142,6 +142,11 @@ table img{
     color: white;
 }
 
+.fa-magnifying-glass{
+    left: 1rem;
+    color: #7a7c7e;
+}
+
 
 @media screen and (min-width: 768px){
     .cs_align-start{
