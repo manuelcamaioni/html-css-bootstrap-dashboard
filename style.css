@@ -142,6 +142,7 @@ table img{
     color: white;
 }
 
+
 @media screen and (min-width: 768px){
     .cs_align-start{
         align-self: flex-start;
@@ -159,6 +160,9 @@ table img{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        padding: 0 .9rem;
+    }
+    .bottom-icons{
         padding: 0 .9rem;
     }
     
@@ -180,3 +184,13 @@ table img{
         width: 100%;
     }
 } 
+
+
+button.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.bg-hover:hover{
+    background-color: rgba(255, 255, 255, .3);
+}
