@@ -161,6 +161,11 @@ table img{
     .cs_sidebar{
         width: 133px;
     }
+
+    input.cs_formcontrol{
+        width: 100%;
+    }
+    
     .top-icons{
         display: flex;
         flex-direction: column;
