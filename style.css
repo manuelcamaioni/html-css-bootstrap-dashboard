@@ -216,6 +216,11 @@ button.btn:hover{
     color: black;
 }
 
+
+.bg-hover{
+    transition: background-color .5s;
+}
+
 .bg-hover:hover{
     background-color: rgba(255, 255, 255, .3);
     
@@ -224,3 +229,12 @@ button.btn:hover{
 .cs_sidebar a:hover{
     color: white;
 }
+
+table tr:hover{
+    background-color: rgba(0, 0, 0, .3);
+}
+
+table tr{
+    transition: background-color .5s;
+}
+
