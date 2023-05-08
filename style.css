@@ -60,6 +60,7 @@ input.cs_formcontrol{
     height: calc(100vh - 55px);
     width: 60px;
     background-color: #051e34;
+    background-image: url('img/sidebar-bg.png');
     color: white;
 }
 
