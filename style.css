@@ -85,6 +85,8 @@ input.cs_formcontrol{
     color: white;
     width: 100%;
     align-self:flex-start;
+    z-index:1;
+    
 }
 
 .top-section a{
@@ -124,6 +126,7 @@ input.cs_formcontrol{
 
 .main-section{
     width: 100%;
+    padding-top: 254.55px;
 }
 
 .card h2{
@@ -160,6 +163,9 @@ table img{
     .cs_justify-center{
         justify-content: center;
     }
+    .main-section{
+        padding-top: 126.85px;
+    }
 }
 
 @media screen and (min-width: 992px){
@@ -186,6 +192,9 @@ table img{
     }
     #offcanvasRight{
         width: 50%;
+    }
+    .main-section{
+        padding-top: 106px;
     }
 }
 
