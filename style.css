@@ -58,6 +58,10 @@ input.cs_formcontrol{
     height: 65%;
 }
 
+input.cs_formcontrol:focus{
+    outline: 0;
+}
+
 .cs_sidebar{
     height: calc(100vh - 55px);
     width: 60px;
@@ -88,6 +92,7 @@ input.cs_formcontrol{
     z-index:1;
     
 }
+
 
 .top-section a{
     color: white;
